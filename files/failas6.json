@@ -1,0 +1,17 @@
+[
+    {
+        "first_name":"Taksas",
+        "age":29,
+        "gender":"male"
+    },
+    {
+        "first_name":"Maksas",
+        "age":32,
+        "gender":"male"
+    },
+    {
+        "first_name":"Faksas",
+        "age":25,
+        "gender":"male"
+    }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <item>
+        <first_name>Pelėda</first_name>
+        <age>25</age>
+        <gender>female</gender>
+    </item>
+    <item>
+        <first_name>Melagė</first_name>
+        <age>13</age>
+        <gender>female</gender>
+    </item>
+</items>

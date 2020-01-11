@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <item>
+        <first_name>Zuikis</first_name>
+        <age>87</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Kalėdų Senelis</first_name>
+        <age>152</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Velykų Bobutė</first_name>
+        <age>160</age>
+        <gender>female</gender>
+    </item>
+    <item>
+        <first_name>Rudolfas</first_name>
+        <age>9</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Antytė</first_name>
+        <age>72</age>
+        <gender>female</gender>
+    </item>
+    <item>
+        <first_name>Margis</first_name>
+        <age>15</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Moliugėlis</first_name>
+        <age>22</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Panda</first_name>
+        <age>23</age>
+        <gender>female</gender>
+    </item>
+</items>

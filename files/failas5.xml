@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <item>
+        <first_name>Joniukas</first_name>
+        <age>13</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Algiukas</first_name>
+        <age>14</age>
+        <gender>male</gender>
+    </item>
+    <item>
+        <first_name>Onutė</first_name>
+        <age>12</age>
+        <gender>female</gender>
+    </item>
+    <item>
+        <first_name>Voriukas</first_name>
+        <age>15</age>
+        <gender>male</gender>
+    </item>
+</items>
