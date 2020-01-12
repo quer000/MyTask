@@ -1,8 +1,19 @@
 <?php
 
+/**
+* funkcijos list kintamieji
+* @param array $files = pasiimamas failu sarasas is nurodytos direktorijos
+* @param string $ext = pasiimamas tik failo pletinys
+* @param array $filesList = sudedamas failu sarasas, kuris atitinka foreach cikle aprasytas salygas
+*
+* funkcijos findExt kintamieji
+* @param string $myFile = atsinesamas failo pavadinimas, kuris yra patikrinamas
+* @param array $fileInfo = surenkama detali failo informacija failo pletinio patikrai nukreipti failo turinio atidarymui
+*/
+
 class files extends valid
 {
-
+    //traukiamas failu sarasas tik tie failai, kurie yra xml, json arba csv formalo
     function list()
     {
         if (!is_dir('files')) {
@@ -21,6 +32,7 @@ class files extends valid
         return $filesList;
     }
 
+    //failo pletinio patikra
     function findExt($myFile)
     {
         if (empty($myFile)) {

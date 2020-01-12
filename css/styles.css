@@ -1,24 +1,26 @@
 .myalign {
     position:absolute;
     top:10%;
-    left: 10%;
+    left: 25%;
 }
 
 .myfiles {
     position: relative;
-    border: 1px solid #000000;
-    width: 150px;
-    height: 200px;
+    width: 350px;
+    height: 700px;
     display: inline-block;
     margin-right: 10px;
+    font-size: 23px;
+    border: 1px solid #000000;
 }
 
 .mycontent {
     position: absolute;
-    border: 1px solid #000000;
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     display: inline-block;
+    font-size: 23px;
+    border: 1px solid #000000;
 }
 
 .myTable {
@@ -27,17 +29,109 @@
 }
 
 .myCell {
-    border: 1px solid #000000;
+    padding: 10px;
 }
 
 .myCname {
     width: 40%;
+    background-color: #FAAC58;
 }
 
 .myCage {
     width: 30%;
+    background-color: #FAAC58;
 }
 
 .myCgender {
     width: 30%;
+    background-color: #FAAC58;
 }
+
+.myFileCell {
+    background-color: #FF8000;
+}
+
+.myContent1 {
+    background-color: #F3E2A9;
+}
+
+.myContent2 {
+    background-color: #F5D0A9;
+}
+
+html {
+    background-color: #B9AF8C;
+}
+
+.myButton {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 99%;
+    height: 35px;
+  }
+
+  .myButton2 {
+    background-color: #ffffff;
+    color: #000000; 
+    border: 2px solid #FF8000;
+  }
+
+  .myButton2:hover {
+    background-color: #FF8000;
+    color: #000000;
+  }
+
+  .myInput {
+      width: 97%;
+      height: 35px;
+      margin: 4px 2px;
+      font-size: 18px;
+      border-radius: 12px;
+  }
+
+  .myLi {
+    list-style-type: none;
+  }
+
+  .myLi:hover {
+    list-style-type: none;
+    background-color: #FF8000;
+  }
+
+  .myLiSelected {
+    list-style-type: none;
+    background-color: #FF8000;
+  }
+
+  .myUl {
+    padding: 10px;;
+    margin: 0px;
+    list-style: none;
+  }
+
+  .scrollFile {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 86.5%;
+    white-space: nowrap;
+  }
+
+  .scrollContent {
+    overflow-y: scroll;
+  }
+
+  .tableFixHead {
+    overflow: auto;
+  }
+  
+  .tableFixHead thead {
+    position: sticky;
+    top: 0;
+  }

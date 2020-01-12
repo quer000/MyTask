@@ -1,6 +1,16 @@
 <?php
+
+/**
+* funkcijos openXML kintamieji
+* @param string $myFile = atsinesamas failo vardas, kuri ketinama atidaryti
+* @param array $myData = surenkamas visas paruostas failo turinys i si masyva
+* @param array $row = kiekviena eilute priskyriama siam masyvui su paruosiamais reikiamais array keys
+* @param object $data = atidaromas xml failo turinys
+*/
+
 class xml extends valid
 {
+    //xml failo turinio atidarymas, sudejimas i masyva ir atidavimas piesimui lenteleje
     function openXML($myFile)
     {
         $myData = array();

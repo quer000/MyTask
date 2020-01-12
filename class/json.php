@@ -1,6 +1,17 @@
 <?php
+
+/**
+* funkcijos openJSON kintamieji
+* @param string $myFile = atsinesamas failo vardas, kuri ketinama atidaryti
+* @param array $myData = surenkamas visas paruostas failo turinys i si masyva
+* @param array $row = kiekviena eilute priskyriama siam masyvui su paruosiamais reikiamais array keys
+* @param string $data = atidaromas json failo turinys
+* @param array $items = konvertuojamas gauta teksta i masyva
+*/
+
 class json extends valid
 {
+    //json failo turinio atidarymas, sudejimas i masyva ir atidavimas piesimui lenteleje
     function openJSON($myFile)
     {
         $myData = array();

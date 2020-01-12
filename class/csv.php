@@ -1,7 +1,18 @@
 <?php
+
+/**
+* funkcijos openCSV kintamieji
+* @param string $myFile = atsinesamas failo vardas, kuri ketinama atidaryti
+* @param array $myData = surenkamas visas paruostas failo turinys i si masyva
+* @param array $row = kiekviena eilute priskyriama siam masyvui su paruosiamais reikiamais array keys
+* @param array $rows = naudojamas istraukti kiekvienos eilutes masyva
+* @param bool $firstRow = patikrina ar failo turinyje traukiama pirmoji eilute, kuri yra nereikalinga
+* $file = atidaromas csv failas
+*/
+
 class csv extends valid
 {
-
+    //csv failo turinio atidarymas, sudejimas i masyva ir atidavimas piesimui lenteleje
     function openCSV($myFile)
     {
         $myData = array();
